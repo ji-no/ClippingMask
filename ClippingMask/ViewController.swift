@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var toView: UIView!
     
-    let headerHeight: CGFloat = 70
+    let headerHeight: CGFloat = 120
     var masked: Bool = false
     
     override func viewDidLoad() {
