@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2D771F284CDFA900352654 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D771E284CDFA900352654 /* TutorialView.swift */; };
 		3BDE44E82840FAE00085A37E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE44E72840FAE00085A37E /* AppDelegate.swift */; };
 		3BDE44EA2840FAE00085A37E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE44E92840FAE00085A37E /* SceneDelegate.swift */; };
 		3BDE44EC2840FAE00085A37E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE44EB2840FAE00085A37E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B2D771E284CDFA900352654 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		3BDE44E42840FAE00085A37E /* ClippingMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClippingMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDE44E72840FAE00085A37E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BDE44E92840FAE00085A37E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				3BDE44E72840FAE00085A37E /* AppDelegate.swift */,
 				3BDE44E92840FAE00085A37E /* SceneDelegate.swift */,
 				3BDE44EB2840FAE00085A37E /* ViewController.swift */,
+				3B2D771E284CDFA900352654 /* TutorialView.swift */,
 				3BDE44ED2840FAE00085A37E /* Main.storyboard */,
 				3BDE44F02840FAE40085A37E /* Assets.xcassets */,
 				3BDE44F22840FAE40085A37E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2D771F284CDFA900352654 /* TutorialView.swift in Sources */,
 				3BDE44EC2840FAE00085A37E /* ViewController.swift in Sources */,
 				3BDE44E82840FAE00085A37E /* AppDelegate.swift in Sources */,
 				3BDE44EA2840FAE00085A37E /* SceneDelegate.swift in Sources */,

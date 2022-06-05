@@ -29,6 +29,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UA-pF-HAV">
+                                <rect key="frame" x="60" y="194" width="74" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njy-gl-aMR">
                                 <rect key="frame" x="326" y="44" width="58" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -57,6 +63,12 @@
                                     <action selector="onTappedStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Wu-DF-ugm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ekv-Bg-swh">
+                                <rect key="frame" x="290" y="711" width="74" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -64,11 +76,15 @@
                             <constraint firstItem="sMI-6n-ho8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1bb-td-Vks"/>
                             <constraint firstItem="e7j-NI-N0h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="3JD-Yy-Fcb"/>
                             <constraint firstItem="sMI-6n-ho8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8De-Vv-guE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ekv-Bg-swh" secondAttribute="bottom" constant="100" id="CfK-av-Xzf"/>
                             <constraint firstItem="e7j-NI-N0h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CmE-5A-ZFF"/>
                             <constraint firstItem="sMI-6n-ho8" firstAttribute="trailing" secondItem="pue-RV-fSc" secondAttribute="trailing" id="DtV-Qa-CTT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="njy-gl-aMR" secondAttribute="trailing" constant="30" id="GSY-Zh-Hbg"/>
+                            <constraint firstItem="8UA-pF-HAV" firstAttribute="top" secondItem="e7j-NI-N0h" secondAttribute="bottom" constant="100" id="IqI-ij-I3X"/>
+                            <constraint firstItem="8UA-pF-HAV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="TKc-pV-Ojg"/>
                             <constraint firstItem="sMI-6n-ho8" firstAttribute="centerY" secondItem="pue-RV-fSc" secondAttribute="centerY" id="Xjw-pn-xWp"/>
                             <constraint firstItem="njy-gl-aMR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aAb-B8-0o9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ekv-Bg-swh" secondAttribute="trailing" constant="50" id="d2H-U3-jPS"/>
                             <constraint firstItem="sMI-6n-ho8" firstAttribute="leading" secondItem="pue-RV-fSc" secondAttribute="leading" id="kyk-X2-z06"/>
                         </constraints>
                     </view>
