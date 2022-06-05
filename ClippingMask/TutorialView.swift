@@ -12,6 +12,7 @@ class TutorialView: UIView {
 
     var headerHeight: CGFloat = 0
     var masked: Bool = false
+    var label: UILabel?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -72,6 +73,14 @@ extension TutorialView {
             maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
         })
         CATransaction.commit()
+        
+        let label = UILabel(frame: .zero)
+        label.text = "↓ Tap here"
+        label.sizeToFit()
+        label.backgroundColor = UIColor.white
+        label.frame.origin = .init(x: toRect.origin.x, y: toRect.origin.y - label.frame.height - 10)
+        self.addSubview(label)
+        self.label = label
     }
 
     private func clearMaskAnimation() {
@@ -97,6 +106,8 @@ extension TutorialView {
             maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
         })
         CATransaction.commit()
+        self.label?.removeFromSuperview()
+        self.label = nil
     }
 
     private func fromRectPath() -> UIBezierPath {
